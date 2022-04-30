@@ -1,0 +1,13 @@
+diff --git a/src/studio/screens/console.c b/src/studio/screens/console.c
+index fef3dd8..3790a78 100644
+--- a/src/studio/screens/console.c
++++ b/src/studio/screens/console.c
+@@ -39,7 +39,7 @@
+ #include <ctype.h>
+ #include <string.h>
+ 
+-#if !defined(__TIC_MACOSX__)
++#if !defined(__TIC_MACOSX__) && !defined(__serenity__)
+ #include <malloc.h>
+ #endif
+ 

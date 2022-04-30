@@ -1,0 +1,13 @@
+diff --git a/libretro/include/SDL_thread.h b/libretro/include/SDL_thread.h
+index 5220c534..e1caf57e 100644
+--- a/libretro/include/SDL_thread.h
++++ b/libretro/include/SDL_thread.h
+@@ -1828,7 +1828,7 @@ SDL_WaitThread(SDL_Thread * thread, int *status)
+ 
+ #if defined(__HAIKU__)
+ #include <posix/errno.h>
+-#else
++#elif !defined(__serenity__)
+ #include <sys/errno.h> 
+ #endif
+ #include <unistd.h>

@@ -1,0 +1,12 @@
+diff --git a/Makefile b/Makefile
+index cd017d4..4e05249 100644
+--- a/Makefile
++++ b/Makefile
+@@ -58,7 +58,6 @@ ifneq (,$(findstring unix,$(platform)))
+    LDFLAGS += -lroot
+    CXXFLAGS += -fpermissive
+    else
+-   LDFLAGS += -lrt
+    endif
+    
+    # Raspberry Pi
