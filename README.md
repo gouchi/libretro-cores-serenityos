@@ -13,6 +13,7 @@ Please copy them to the [Ports directory](https://github.com/SerenityOS/serenity
 | libretro-cannonball | OK |  |
 | libretro-dinothawr | OK |  |
 | libretro-fbneo | OK |  |
+| libretro-gearcoleco | OK |  |
 | libretro-gearsystem | OK |  |
 | libretro-gme | OK |  |
 | libretro-gw | OK |  |
