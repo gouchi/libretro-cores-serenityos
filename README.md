@@ -9,6 +9,7 @@ Please copy them to the [Ports directory](https://github.com/SerenityOS/serenity
 | Name | Status | Notes |
 | --- | :---: | --- |
 | libretro-arduous | OK |  |
+| libretro-beetle-pce-fast | OK |  |
 | libretro-beetle-wswan | OK |  |
 | libretro-cannonball | OK |  |
 | libretro-dinothawr | OK |  |
