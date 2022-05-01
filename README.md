@@ -17,6 +17,7 @@ Please copy them to the [Ports directory](https://github.com/SerenityOS/serenity
 | libretro-gearboy | OK |  |
 | libretro-gearcoleco | OK |  |
 | libretro-gearsystem | OK |  |
+| libretro-genesis-plus-gx | OK |  |
 | libretro-gme | OK |  |
 | libretro-gw | OK |  |
 | libretro-hatari | OK |  |
