@@ -17,6 +17,7 @@ Please copy them to the [Ports directory](https://github.com/SerenityOS/serenity
 | libretro-gw | OK |  |
 | libretro-hatari | OK |  |
 | libretro-jaxe | OK |  |
+| libretro-jumpnbump | OK |  |
 | libretro-lowres-nx | OK |  |
 | libretro-lutro | OK |  |
 | libretro-mu | OK |  |
