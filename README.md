@@ -32,4 +32,5 @@ Please copy them to the [Ports directory](https://github.com/SerenityOS/serenity
 | libretro-sameboy | OK |  |
 | libretro-snes9x | OK |  |
 | libretro-tic80 | KO |  |
+| libretro-uzem | OK |  |
 | libretro-wasm4 | OK |  |
