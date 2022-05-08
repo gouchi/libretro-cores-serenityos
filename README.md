@@ -31,6 +31,7 @@ Please copy them to the [Ports directory](https://github.com/SerenityOS/serenity
 | libretro-nestopia | KO |  |
 | libretro-nxengine | OK |  |
 | libretro-quicknes | OK |  |
+| libretro-reminiscence | KO |  |
 | libretro-sameboy | OK |  |
 | libretro-snes9x | OK |  |
 | libretro-tic80 | KO |  |
