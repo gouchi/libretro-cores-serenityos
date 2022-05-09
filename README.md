@@ -12,6 +12,7 @@ Please copy them to the [Ports directory](https://github.com/SerenityOS/serenity
 | libretro-beetle-pce-fast | OK |  |
 | libretro-beetle-wswan | OK |  |
 | libretro-cannonball | OK |  |
+| libretro-caprice32 | OK |  |
 | libretro-dinothawr | OK |  |
 | libretro-fbneo | OK |  |
 | libretro-gearboy | OK |  |
