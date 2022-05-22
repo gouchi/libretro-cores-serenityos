@@ -10,7 +10,7 @@ configopts=("-DCMAKE_TOOLCHAIN_FILE=${SERENITY_BUILD_DIR}/CMakeToolchain.txt" "-
 
 configure() {
     # Initialize submodules from tarballs
-    [ -e "${port/libretro-/}-${version}/simarv" ] && rm -r "${port/libretro-/}-${version}/simavr"
+    [ -e "${port/libretro-/}-${version}/simavr" ] && rm -r "${port/libretro-/}-${version}/simavr"
     cp -r simavr-e2023d1a5bfd448fb42df343ce56c1fc9637a794 "${port/libretro-/}-${version}/simavr"
 
     run cmake "${configopts[@]}"
