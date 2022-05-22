@@ -15,6 +15,7 @@ Please copy them to the [Ports directory](https://github.com/SerenityOS/serenity
 | libretro-caprice32 | OK |  |
 | libretro-dinothawr | OK |  |
 | libretro-fbneo | OK |  |
+| libretro-fceumm | OK |  |
 | libretro-gearboy | OK |  |
 | libretro-gearcoleco | OK |  |
 | libretro-gearsystem | OK |  |
