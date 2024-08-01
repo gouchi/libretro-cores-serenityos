@@ -1,9 +1,9 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-gme
-version="5fb30ebb8871624cecc07813212fb643fa8449f4"
+version="a469ce3f6e9cc674e615de3955ec7b25e949e5d8"
 workdir="${port}-${version}"
-archive_hash="ea4394c28fd63b3b1f8ca2e7aa83ad4a14fb360815e4d593065466712769550a"
-files="https://github.com/libretro/${port}/archive/${version}.tar.gz ${port/libretro-/}-${version}.tar.gz $archive_hash"
+archive_hash="9d997316c05f9cb0788ca508d24e84ed03d7217f6fdc1e0141158d47a83d5a8a"
+files="https://github.com/libretro/${port}/archive/${version}.tar.gz#$archive_hash"
 auth_type=sha256
 
 build() {

@@ -1,9 +1,9 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-sameboy
-version="b154b7d3d885a3cf31203f0b8f50d3b37c8b742b"
+version="51433012a871a44555492273fd22f29867d12655"
 workdir="SameBoy-${version}"
-archive_hash="a8728627d7343abc097d74ff0a0f7ad6ebb5d5b70aba1f7ff81b73ce8f192806"
-files="https://github.com/libretro/${port/libretro-/}/archive/${version}.tar.gz ${port/libretro-/}-${version}.tar.gz $archive_hash"
+archive_hash="cb1b914ce29d250ed1b170b317c114106bdd9208d69100f3f761eeddd5fb472d"
+files="https://github.com/libretro/${port/libretro-/}/archive/${version}.tar.gz#$archive_hash"
 auth_type=sha256
 
 build() {

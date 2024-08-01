@@ -1,9 +1,9 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-genesix-plus-gx
-version="e366ca817f5b750ad06a8e2c5976d79b3758ea0a"
+version="2fd18851754e715bd55e7040aaace2590ac0d8cb"
 workdir="Genesis-Plus-GX-${version}"
-archive_hash="d38444befbd5c7785c87900cfbedc6625b2e59a60521a4c760f51113161acbf4"
-files="https://github.com/ekeeke/Genesis-Plus-GX/archive/${version}.tar.gz ${port/libretro-/}-${version}.tar.gz $archive_hash"
+archive_hash="34fce67bc5f52eef99dd58e0a9a80f543447ab8955e724cd9b1af5ccbcf59a27"
+files="https://github.com/ekeeke/Genesis-Plus-GX/archive/${version}.tar.gz#$archive_hash"
 auth_type=sha256
 
 build() {

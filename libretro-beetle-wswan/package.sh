@@ -1,9 +1,9 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-beetle-wswan
-version="d1fb3f399a2bc16b9ad0f2e8c8ba9f7051cd26bd"
+version="440e9228592a3f603d7d09e8bee707b0163f545f"
 workdir="beetle-wswan-libretro-${version}"
-archive_hash="18df2d0810705c09a00948d311b2e147e32ea9d0e3cdc1e860b434dac19e8f45"
-files="https://github.com/libretro/beetle-wswan-libretro/archive/${version}.tar.gz ${port/libretro-/}-${version}.tar.gz $archive_hash"
+archive_hash="1aca66df34c78c889ff3c707918b74082991bc07a1a7c4a150a0208fb62cb8e6"
+files="https://github.com/libretro/beetle-wswan-libretro/archive/${version}.tar.gz#$archive_hash"
 auth_type=sha256
 
 build() {

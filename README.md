@@ -24,10 +24,10 @@ Please copy them to the [Ports directory](https://github.com/SerenityOS/serenity
 | libretro-gong | OK |  |
 | libretro-gw | OK |  |
 | libretro-handy | OK |  |
-| libretro-hatari | OK |  |
+| libretro-hatari | KO |  |
 | libretro-jaxe | OK |  |
 | libretro-jumpnbump | OK |  |
-| libretro-lowres-nx | OK |  |
+| libretro-lowres-nx | KO |  |
 | libretro-lutro | OK |  |
 | libretro-mu | OK |  |
 | libretro-nestopia | KO |  |
@@ -39,4 +39,4 @@ Please copy them to the [Ports directory](https://github.com/SerenityOS/serenity
 | libretro-tic80 | KO |  |
 | libretro-uzem | OK |  |
 | libretro-vbam | OK |  |
-| libretro-wasm4 | OK |  |
+| libretro-wasm4 | KO |  |

@@ -1,9 +1,9 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-beetle-pce-fast
-version="e8801687f232a6f8828b3ff5dadbc9fe1b0076fc"
+version="7b7ad0760860f792f3f3a2768230397504e3f66d"
 workdir="beetle-pce-fast-libretro-${version}"
-archive_hash="6ba8965da9f27ca1feb4a6406e6f3114f60712e8ddd8778847885a289b893f00"
-files="https://github.com/libretro/beetle-pce-fast-libretro/archive/${version}.tar.gz ${port/libretro-/}-${version}.tar.gz $archive_hash"
+archive_hash="b6ad7017658bd050ee8f18763716c3567c7d5106fc9dcf1c337bb1cd149bc11a"
+files="https://github.com/libretro/beetle-pce-fast-libretro/archive/${version}.tar.gz#$archive_hash"
 auth_type=sha256
 
 build() {

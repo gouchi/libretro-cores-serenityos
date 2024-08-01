@@ -1,9 +1,9 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-hatari
-version="e5e36a5262cfeadc3d1c7b411b7a70719c4f293c"
+version="c10a21dbe99277b06ccf7de10eceb74f5d57e921"
 workdir="${port/libretro-/}-${version}"
-archive_hash="e1cc4f96d5ddedc70dcf59a73f05a6c6da476bbe7b2a9672fa3f8d09f4743925"
-files="https://github.com/libretro/${port/libretro-/}/archive/${version}.tar.gz ${port/libretro-/}-${version}.tar.gz $archive_hash"
+archive_hash="6663c38c83590cddc67e49bdb3dff51a858e9caff412243eb96ed241b2878a13"
+files="https://github.com/libretro/${port/libretro-/}/archive/${version}.tar.gz#$archive_hash"
 auth_type=sha256
 
 build() {

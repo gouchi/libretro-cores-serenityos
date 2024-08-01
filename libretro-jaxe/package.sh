@@ -1,9 +1,12 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-jaxe
-version="84862432dcaf5cb0b68ecf45921dfaabdb56d3fd"
+version="22115d58de5f80cfafbbeece19d723f4892ed75c"
 workdir="${port/libretro-/}-${version}"
-files="https://github.com/kurtjd/${port/libretro-/}/archive/${version}.tar.gz ${port/libretro-/}-${version}.tar.gz
-https://github.com/libretro/libretro-common/archive/996376e36d3f4f56eba202cb96230568628d2583.tar.gz libretro-common.tar.gz"
+archive_hash="b66f1942824e61b73b7254a96644f87b934b949dccf4c291dd3957b1994424ed"
+files=(
+    "https://github.com/kurtjd/${port/libretro-/}/archive/${version}.tar.gz#$archive_hash"
+    "https://github.com/libretro/libretro-common/archive/996376e36d3f4f56eba202cb96230568628d2583.tar.gz#9451d8775f9660057b4703822b74307550c202773071ee0ff601738d5e1683fa"
+)
 useconfigure=true
 
 configure () {

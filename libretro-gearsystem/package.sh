@@ -1,9 +1,9 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-gearsystem
-version="a6849bfa6973af6417678d9b1ea893064aa3910c"
+version="59087fb1f8b77c3c151df4aeb03cc44821db6112"
 workdir="Gearsystem-${version}"
-archive_hash="7eff52d6ac116305b899ed2024e6105244b67fd467505b1ac0da9fbfc56b888a"
-files="https://github.com/drhelius/${port/libretro-/}/archive/${version}.tar.gz ${port/libretro-/}-${version}.tar.gz $archive_hash"
+archive_hash="4d350954c92dbfa62a8d7117bfa239eb6c26f81d498339650565ea946a2b71da"
+files="https://github.com/drhelius/${port/libretro-/}/archive/${version}.tar.gz#$archive_hash"
 auth_type=sha256
 
 build() {

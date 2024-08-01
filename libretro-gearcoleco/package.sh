@@ -1,9 +1,9 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-gearcoleco
-version="443207ea3cf3df75299f3346692b873189c44183"
+version="8c7d6436a9e0aea87233d0a16a6c6910767a841e"
 workdir="Gearcoleco-${version}"
-archive_hash="97dd3eb67c5388431d6ecfb7b54842d753520a489abb3e3529d349cdc8431d5a"
-files="https://github.com/drhelius/${port/libretro-/}/archive/${version}.tar.gz ${port/libretro-/}-${version}.tar.gz $archive_hash"
+archive_hash="a79165753b116c246122a4a224882bb60dc769ae8ca83fa6c07c17e4b662744c"
+files="https://github.com/drhelius/${port/libretro-/}/archive/${version}.tar.gz#$archive_hash"
 auth_type=sha256
 
 build() {

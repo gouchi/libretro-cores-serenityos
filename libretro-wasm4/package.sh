@@ -1,9 +1,12 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-wasm4
-version="a190ee119c572f10e14ce73188348c2bf00d333e"
+version="49e630396649d435a1a0b8c1eaa52cc5ce8a70a8"
 workdir="${port/libretro-/}-${version}"
-files="https://github.com/aduros/${port/libretro-/}/archive/${version}.tar.gz ${port}-${version}.tar.gz
-https://github.com/wasm3/wasm3/archive/dc9fa49340b8d066a479cf36f7412208ff91a0ee.tar.gz wasm3.tar.gz"
+archive_hash="849815d22cd8e0beebe4978c9aa5460f8b365afad64c95f99997f579d5d8a4bf"
+files=(
+    "https://github.com/aduros/${port/libretro-/}/archive/${version}.tar.gz#$archive_hash"
+    "https://github.com/wasm3/wasm3/archive/dc9fa49340b8d066a479cf36f7412208ff91a0ee.tar.gz#253c42d8afd6f940872d7bd10345b9e42dba0b97b5817de1e0d21654db06f2ff"
+)
 useconfigure=true
 configopts=("-DCMAKE_TOOLCHAIN_FILE=${SERENITY_BUILD_DIR}/CMakeToolchain.txt" "-DLIBRETRO=on" "-DCMAKE_BUILD_TYPE=Release")
 

@@ -1,9 +1,9 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-quicknes
-version="e6f08c165af45fc2d2f26c80ba0cfc33e26f9cfe"
+version="89d649a544e7d37a5cdbc77c811e88753fa23131"
 workdir="QuickNES_Core-${version}"
-archive_hash="ae6a40b32f286536edbd697f13a849f658ba2ae2643f43c3f8bedfa12bdc73be"
-files="https://github.com/libretro/${port/libretro-/}_core/archive/${version}.tar.gz ${port/libretro-/}-${version}.tar.gz $archive_hash"
+archive_hash="97239265ecf76157b4f883a46638303d230c611a3eb0059268b754fd06738965"
+files="https://github.com/libretro/${port/libretro-/}_core/archive/${version}.tar.gz#$archive_hash"
 auth_type=sha256
 
 build() {

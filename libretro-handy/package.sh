@@ -1,8 +1,8 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-handy
-version="517bb2d02909271836604c01c8f09a79ad605297"
-archive_hash="9cb28a26aee3b1ce503458ec3fb954a3464fdd41f1a1acb1e6c93426b2c2f9f0"
-files="https://github.com/libretro/${port}/archive/${version}.tar.gz ${port}-${version}.tar.gz $archive_hash"
+version="15d3c87e0eba52464ed759d3702d7cb7fdd0d7e0"
+archive_hash="ab90f90e73ddb58957d83f3b312b4add60e7e81890255e265a652a409fe515d6"
+files="https://github.com/libretro/${port}/archive/${version}.tar.gz#$archive_hash"
 auth_type=sha256
 
 build() {

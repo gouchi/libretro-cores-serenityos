@@ -1,10 +1,11 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=gw-libretro
-version="d08a08154ce8ed8e9de80582c108f157e4c6b226"
+version="feab76c102166784230dc44c45cad4cb49a1c9a7"
 workdir="$port-${version}"
-archive_hash="6c48bde1ab3cea5d9273303c79d5e044ed05024c0191a747d7b79efe677b4271"
-files="https://github.com/libretro/$port/archive/${version}.tar.gz ${port}-${version}.tar.gz $archive_hash"
-auth_type=sha256
+archive_hash="83f99a06e2dfd5dc4127f552e924f2727a30c52ab49552f81da1da186b8cc9da"
+files=(
+    "https://github.com/libretro/$port/archive/${version}.tar.gz#$archive_hash"
+)
 
 build() {
     run make -f Makefile.libretro "${makeopts[@]}"

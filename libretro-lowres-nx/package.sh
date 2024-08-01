@@ -1,9 +1,9 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-lowres-nx
-version="726016d37bc7b18e6e2fac0140b7d85b19374c7e"
+version="c824ec163a1945cc48e4319054c7eb1024667497"
 workdir="${port/libretro-/}-${version}"
-archive_hash="466ccae79c1d2d1037cbde78816e45bc977990383fd2df636d6656bf0586178b"
-files="https://github.com/timoinutilis/${port/libretro-/}/archive/${version}.tar.gz ${port/libretro-/}-${version}.tar.gz $archive_hash"
+archive_hash="73de1c204ad8323b597f2013e99e8bced8e37401b67b9f844769c1ab0c8e0ceb"
+files="https://github.com/timoinutilis/${port/libretro-/}/archive/${version}.tar.gz#$archive_hash"
 auth_type=sha256
 
 build() {

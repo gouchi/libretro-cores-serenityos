@@ -1,9 +1,9 @@
 #!/usr/bin/env -S bash ../.port_include.sh
 port=libretro-reminiscence
-version="c2624c7565bbae441835db80f24902fc40f83dd1"
+version="b7c3ff91ada2e49fa5ee5af2b139e6cc0ce6bf24"
 workdir="REminiscence-${version}"
-archive_hash="a8c11ff40c0f6718b7932bcaf15899cacbf7e9b2b95bea019ffc070ffa895380"
-files="https://github.com/libretro/REminiscence/archive/${version}.tar.gz REminiscence-${version}.tar.gz $archive_hash"
+archive_hash="d282cbe400c5aaa8df4d52be5066c771294cb067edc800b94e0cdb8785d0dd58"
+files="https://github.com/libretro/REminiscence/archive/${version}.tar.gz#$archive_hash"
 auth_type=sha256
 
 build() {
