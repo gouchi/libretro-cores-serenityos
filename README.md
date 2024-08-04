@@ -8,7 +8,8 @@ Please copy them to the [Ports directory](https://github.com/SerenityOS/serenity
 
 | Name | Status | Notes |
 | --- | :---: | --- |
-| libretro-arduous | OK |  |
+| libretro-ardens | OK |  |
+| libretro-arduous | KO |  |
 | libretro-beetle-pce-fast | OK |  |
 | libretro-beetle-wswan | OK |  |
 | libretro-cannonball | OK |  |
