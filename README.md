@@ -8,6 +8,7 @@ Please copy them to the [Ports directory](https://github.com/SerenityOS/serenity
 
 | Name | Status | Notes |
 | --- | :---: | --- |
+| libretro-2048 | OK |  |
 | libretro-anarch | OK |  |
 | libretro-ardens | OK |  |
 | libretro-arduous | KO |  |
